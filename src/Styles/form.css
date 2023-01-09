@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/omnes');
+
+.form{
+    display: grid;
+}
+
+.EmForm{
+    font-family: "omnes", sans-serif;
+}
+
+.EmFormLabel{
+    /* position: absolute; */
+/* width: 124px;
+height: 25px;
+left: 359px;
+top: 167px;
+font-family: "omnes", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); */
+}
+
+.EmFormInput{
+    box-sizing: border-box;
+
+/* position: absolute; */
+/* width: 411px;
+height: 40px;
+left: 390px;
+top: 192px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 2px solid rgba(255, 255, 255, 0.5);
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(10px); */
+/* Note: backdrop-filter has minimal browser support */
+
+/* border-radius: 11px; */
+}
