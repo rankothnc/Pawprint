@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    /* display: grid; */
+  }
+  
+  .column {
+    float: left;
+    height: 100vh; 
+  }
+  
+  .left {
+    width: 20%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.825);
+    
+  }
+  .right{
+    background-color: #FF8533;
+    /* background-color: #9a8e8e; */
+    width: 80%;
+    height: 100vh;
+  }
+  .container{
+    width: 97%;
+    height: 95vh;
+    border: 1px;
+    background-color: #FFFFFF33;
+    border-radius: 37px;
+    margin: 20px auto 20px auto;  
+   
+  }
+/*   
+#outlined-basic{
+    padding-left: 200px;
+    margin-left: 200px;
+} */
+
+.boxContainer{
+    display: grid;
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* .MuiGrid-root .MuiGrid-item .MuiGrid-grid-xs-6 .css-1osj8n2-MuiGrid-root{
+  padding-top: 100px;
+} */
+
+.css-10mzr36-MuiGrid-root {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -8px;
+  /* background-color: blue; */
+  align-items: center;
+  /* padding: 50px 100px; */
+}
+
+.css-10mzr36-MuiGrid-root>.MuiGrid-item {
+  padding-top: 15px;
+  padding-right: 24px;
+  align-items: center;
+}

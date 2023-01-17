@@ -1,5 +1,4 @@
-import EmergencyForm from "./Pages/EmergencyForm";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import EmergencyForm from "./Pages/Emergency_Contact/EmergencyForm";
 
 function App() {
   return (
