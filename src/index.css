@@ -20,4 +20,5 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/Styles/Emergency_Contact/background.svg");
 }
