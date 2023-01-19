@@ -1,14 +1,7 @@
 import React from "react";
 import "../../Styles/Emergency_Contact/EmergencyForm.css";
-import { TextField, InputBase } from "@mui/material";
-import { styled } from "@mui/material/styles";
 import EForm from "../../Components/Emergency_Contact/Form";
-
-const CssTextField = styled(TextField)({
-  "& .MuiOutlinedInput:after": {
-    borderBlockColor: "green",
-  },
-});
+import Buttons from "../../Components/Emergency_Contact/Buttons";
 
 export default function EmergencyForm() {
   return (
@@ -17,8 +10,10 @@ export default function EmergencyForm() {
 
       <div className="column right">
         <div className="container">
-          <EForm />
+          <EForm />    
+          <Buttons/>
         </div>
+         
       </div>
     </div>
   );

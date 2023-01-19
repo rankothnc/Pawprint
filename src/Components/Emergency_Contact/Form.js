@@ -56,6 +56,40 @@ export default function EForm() {
 
             <p className="InputLabel">Country</p>
             <InputBase className="inp" />
+
+            {/* <table>
+              <tr className="A">
+              <td>
+              <p className="InputLabel">Country</p>
+            <InputBase className="inp" />
+              </td>
+              <td>
+              <p className="InputLabel">Country</p>
+            <InputBase className="inp" />
+              </td>
+              </tr>
+            
+            </table> */}
+            {/* <Grid container spacing={15} >
+                    <Grid item xs={4}>
+                      <p className="InputLabel2">Start Date</p>
+                      <InputBase className="inpDate" />
+                    </Grid>
+                    <Grid item xs={4}>
+                      <p className="InputLabel2">Duration</p>
+                      <InputBase className="inpDur" />
+                    </Grid>
+                  </Grid> */}
+
+
+                  <div className="AA">
+                  <div> <p className="InputLabel2">Start Date</p>
+                      <InputBase className="inpDate" /></div>
+                 
+                      <div> <p className="InputLabel2">Start Date</p>
+                      <InputBase className="inpDate" /></div>
+                  </div>
+
           </Grid>
         </Grid>
       </Box>
